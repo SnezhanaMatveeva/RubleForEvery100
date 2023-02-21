@@ -10,12 +10,10 @@ public class Main {
 
         if (replenishmentAmount > 1000) {
             totalAmountWithBonus = totalAmount + bonus;
-
+            System.out.println("Итоговый счет:" + " " + totalAmountWithBonus);
+            System.out.println("Бонусы:" + " " + bonus);
         } else {
-            totalAmountWithBonus = totalAmount;
+            System.out.println(totalAmount);
         }
-
-        System.out.println("Итоговый счет:" + " " + totalAmountWithBonus);
-        System.out.println("Бонусы:" + " " + bonus);
     }
 }
